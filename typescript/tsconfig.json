@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "utils/*": ["utils/*"]
+    }
+  },
+  "include": ["leetcodehard/**/*.ts", "systemdesign/**/*.ts", "utils/**/*.ts"]
+}
